@@ -20,5 +20,25 @@
     "logfile": "director.log",
     "errfile": "director.log",
     "paths": ["/opt/ninjablocks", "/opt/ninjablocks/drivers", "$GOPATH/src/github.com/ninjasphere"]
+  },
+  "homecloud": {
+    "rest": {
+      "port": 8000
+    },
+    "autoStart": {
+      "modules": [
+        "app-scheduler",
+        "driver-go-zigbee",
+        "driver-go-hue",
+        "driver-go-sonos",
+        "driver-go-chromecast",
+        "driver-go-wemo",
+        "driver-go-lifx"
+      ],
+      "interval": "20s"
+    },
+    "sync": {
+      "interval": "30m"
+    }
   }
 }
