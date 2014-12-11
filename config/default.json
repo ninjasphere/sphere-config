@@ -25,6 +25,14 @@
     "rest": {
       "port": 8000
     },
+    "websocket": {
+      "port": 9001
+    },
+    "redis": {
+      "port": 6379,
+      "maxIdle": 3,
+      "idleTimeout": "4m"
+    },
     "autoStart": {
       "modules": [
         "app-scheduler",
