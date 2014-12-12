@@ -46,7 +46,8 @@
       "interval": "20s"
     },
     "sync": {
-      "interval": "30m"
+      "interval": "30m",
+      "timeout": "20s"
     }
   }
 }
