@@ -40,6 +40,7 @@
         "driver-go-hue",
         "driver-go-sonos",
         "driver-go-chromecast",
+        "driver-go-blecombined",
         "driver-go-wemo",
         "driver-go-lifx"
       ],
