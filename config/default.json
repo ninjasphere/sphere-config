@@ -22,6 +22,9 @@
     "paths": ["/opt/ninjablocks", "/opt/ninjablocks/drivers", "$GOPATH/src/github.com/ninjasphere"]
   },
   "led": {
+    "clock": {
+      "enabled": true
+    },
     "media": {
       "volumeInterval": "Minimum delay before sending volume values to media devices",
       "volumeInterval": "500ms",
