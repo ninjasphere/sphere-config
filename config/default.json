@@ -36,12 +36,12 @@
       "tapInterval": "100ms",
 
       "images": {
-        "Volume": "media-volume-speaker.gif",
-        "Mute": "media-volume-mute.png",
-        "Play": "media-play.png",
-        "Pause": "media-pause.png",
-        "Stop": "media-stop.png",
-        "Next": "media-next.png"
+        "volume": "media-volume-speaker.gif",
+        "mute": "media-volume-mute.png",
+        "play": "media-play.png",
+        "pause": "media-pause.png",
+        "stop": "media-stop.png",
+        "next": "media-next.png"
       }
     },
     "light": {
@@ -55,7 +55,10 @@
       "colorSpeed": 0.09,
 
       "brightnessSpeed": "How fast the airwheel spins. Higher is faster",
-      "brightnessSpeed": 0.4
+      "brightnessSpeed": 0.4,
+
+      "brightnessMinimum": "The lowest brightness to *render on the screen*. 0-255",
+      "brightnessMinimum": 40
     },
     "onoff": {
       "tapTimeout": "100ms"
