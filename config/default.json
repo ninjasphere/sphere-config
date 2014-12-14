@@ -21,6 +21,46 @@
     "errfile": "director.log",
     "paths": ["/opt/ninjablocks", "/opt/ninjablocks/drivers", "$GOPATH/src/github.com/ninjasphere"]
   },
+  "led": {
+    "media": {
+      "volumeInterval": "Minimum delay before sending volume values to media devices",
+      "volumeInterval": "500ms",
+
+      "volumeModeReset": "How long after the last airwheel before we hide the volume display",
+      "volumeModeReset": "1s",
+
+      "airWheelReset": "Max time between airwheel values for them to be considered together",
+      "airWheelReset": "300ms",
+
+      "tapInterval": "Minimum delay between registered taps",
+      "tapInterval": "100ms",
+
+      "images": {
+        "Volume": "media-volume-speaker.gif",
+        "Mute": "media-volume-mute.png",
+        "Play": "media-play.png",
+        "Pause": "media-pause.png",
+        "Stop": "media-stop.png",
+        "Next": "media-next.png"
+      }
+    },
+    "light": {
+      "tapInterval": "Time before new taps are allowed.",
+      "tapInterval": "100ms",
+
+      "colorInterval": "Minimum delay before sending color state to media devices",
+      "colorInterval": "300ms",
+
+      "colorSpeed": "How fast the airwheel spins. Higher is faster",
+      "colorSpeed": 0.09,
+
+      "brightnessSpeed": "How fast the airwheel spins. Higher is faster",
+      "brightnessSpeed": 0.4
+    },
+    "onoff": {
+      "tapTimeout": "100ms"
+    }
+  },
   "homecloud": {
     "rest": {
       "port": 8000
