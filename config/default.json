@@ -93,6 +93,8 @@
       "interval": "7s"
     },
     "sync": {
+      "enabled": true,
+      "fromCloud": false,
       "interval": "15m",
       "timeout": "5s"
     }
