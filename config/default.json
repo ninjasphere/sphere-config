@@ -90,7 +90,7 @@
         "driver-go-wemo",
         "driver-go-lifx"
       ],
-      "interval": "20s"
+      "interval": "7s"
     },
     "sync": {
       "interval": "15m",
