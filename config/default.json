@@ -61,7 +61,7 @@
       "brightnessSpeed": 0.4,
 
       "brightnessMinimum": "The lowest brightness to *render on the screen*. 0-255",
-      "brightnessMinimum": 40
+      "brightnessMinimum": 70
     },
     "onoff": {
       "tapTimeout": "100ms"
