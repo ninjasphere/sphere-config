@@ -22,6 +22,11 @@
     "paths": ["/opt/ninjablocks", "/opt/ninjablocks/drivers", "$GOPATH/src/github.com/ninjasphere"]
   },
   "led": {
+    "gestures": {
+      "enable": true,
+      "log": false,
+      "testPane": false
+    },
     "clock": {
       "enabled": true
     },
@@ -69,6 +74,12 @@
     "weather": {
       "enabled": true,
       "updateInterval": "10m"
+    },
+    "certification": {
+      "enabled": false
+    },
+    "gameOfLife": {
+      "enabled": false
     }
   },
   "homecloud": {
