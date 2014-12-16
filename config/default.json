@@ -65,6 +65,10 @@
     },
     "onoff": {
       "tapTimeout": "100ms"
+    },
+    "weather": {
+      "enabled": true,
+      "updateInterval": "10m"
     }
   },
   "homecloud": {
