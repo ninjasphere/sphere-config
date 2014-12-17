@@ -31,7 +31,7 @@
       "enabled": true,
       "alarmEnabled": true,
       "alarmFlashTimes": 2,
-      "alarmFlashInterval": "1s"
+      "alarmFlashInterval": "500ms"
     },
     "media": {
       "volumeInterval": "Minimum delay before sending volume values to media devices",
@@ -60,7 +60,7 @@
       "tapInterval": "100ms",
 
       "colorInterval": "Minimum delay before sending color state to media devices",
-      "colorInterval": "300ms",
+      "colorInterval": "400ms",
 
       "colorSpeed": "How fast the airwheel spins. Higher is faster",
       "colorSpeed": 0.09,
