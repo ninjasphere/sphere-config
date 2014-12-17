@@ -28,7 +28,10 @@
       "testPane": false
     },
     "clock": {
-      "enabled": true
+      "enabled": true,
+      "alarmEnabled": true,
+      "alarmFlashTimes": 2,
+      "alarmFlashInterval": "1s"
     },
     "media": {
       "volumeInterval": "Minimum delay before sending volume values to media devices",
