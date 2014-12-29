@@ -22,6 +22,11 @@
     "paths": ["/opt/ninjablocks", "/opt/ninjablocks/drivers", "$GOPATH/src/github.com/ninjasphere"]
   },
   "led": {
+    "panDuration": "350ms",
+    "wakeTransition": "1ms",
+    "sleepTransition": "5s",
+    "sleepTimeout": "20s",
+    "forceAllPanes": false,
     "gestures": {
       "enable": true,
       "log": false,
@@ -57,16 +62,16 @@
     },
     "light": {
       "tapInterval": "Time before new taps are allowed.",
-      "tapInterval": "100ms",
+      "tapInterval": "150ms",
 
       "colorInterval": "Minimum delay before sending color state to media devices",
       "colorInterval": "400ms",
 
       "colorSpeed": "How fast the airwheel spins. Higher is faster",
-      "colorSpeed": 0.09,
+      "colorSpeed": 0.19,
 
       "brightnessSpeed": "How fast the airwheel spins. Higher is faster",
-      "brightnessSpeed": 0.4,
+      "brightnessSpeed": 1.1,
 
       "brightnessMinimum": "The lowest brightness to *render on the screen*. 0-255",
       "brightnessMinimum": 70
