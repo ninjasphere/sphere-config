@@ -91,6 +91,7 @@
     }
   },
   "homecloud": {
+    "waitForNTP": true,
     "rest": {
       "port": 8000
     },
