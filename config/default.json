@@ -8,7 +8,9 @@
   },
   "cloud": {
     "url": "ssl://dev.ninjasphere.co:8883",
-    "activation": "https://api.dev.ninjasphere.co/rest/v1/node/%s/activate?local_ip=%s&board_type=%s",
+    "activation": "https://api.dev.ninjasphere.co/rest/v1/node/%s/activate?local_ip=%s&hardware_type=%s&potential_usurper=true",
+    "sites": "https://api.dev.ninjasphere.co/rest/v1/activation/sites?access_token=%s",
+    "nodes": "https://api.dev.ninjasphere.co/rest/v1/node?access_token=%s",
     "allowSelfSigned": true
   },
   "enableCors": true,
