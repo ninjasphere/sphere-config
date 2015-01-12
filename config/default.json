@@ -1,7 +1,7 @@
 {
   "mqtt": {
     "host": "localhost",
-    "implemtation": "paho",
+    "implementation": "paho",
     "port": 1883,
     "config": {
       "keepalive": 10000
