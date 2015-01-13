@@ -93,7 +93,7 @@
       "enabled": false
     },
     "gameOfLife": {
-      "enabled": true
+      "enabled": false
     }
   },
   "homecloud": {
