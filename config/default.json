@@ -7,6 +7,9 @@
       "keepalive": 10000
     }
   },
+  "drivers": {
+    "startUpDelay": "3s"
+  },
   "cloud": {
     "url": "ssl://dev.ninjasphere.co:8883",
     "activation": "https://api.dev.ninjasphere.co/rest/v1/node/%s/activate?local_ip=%s&hardware_type=%s&potential_usurper=true",
