@@ -115,8 +115,7 @@
         "driver-go-chromecast",
         "driver-go-blecombined",
         "driver-go-wemo",
-        "driver-go-lifx",
-        "driver-broadlink-demo"
+        "driver-go-lifx"
       ],
       "interval": "7s"
     },
