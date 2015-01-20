@@ -7,6 +7,9 @@
       "keepalive": 10000
     }
   },
+  "client": {
+    "orphanTimeout": "30s"
+  },
   "drivers": {
     "startUpDelay": "3s"
   },
