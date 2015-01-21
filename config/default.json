@@ -113,6 +113,10 @@
       "maxIdle": 3,
       "idleTimeout": "4m"
     },
+    "fsSync": {
+      "enabled": true,
+      "minInterval": "2s"
+    },
     "autoStart": {
       "modules": [
         "app-scheduler",
