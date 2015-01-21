@@ -108,6 +108,7 @@
       "port": 9001
     },
     "redis": {
+      "host": "",
       "port": 6379,
       "maxIdle": 3,
       "idleTimeout": "4m"
