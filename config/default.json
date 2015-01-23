@@ -58,7 +58,7 @@
       "airWheelReset": "300ms",
 
       "tapInterval": "Minimum delay between registered taps",
-      "tapInterval": "100ms",
+      "tapInterval": "200ms",
 
       "images": {
         "volume": "media-volume-speaker.gif",
