@@ -62,6 +62,8 @@
 
       "images": {
         "volume": "media-volume-speaker.gif",
+        
+        "volume": "media-volume-speaker.gif",
         "mute": "media-volume-mute.png",
         "play": "media-play.png",
         "pause": "media-pause.png",
