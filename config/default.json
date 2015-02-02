@@ -138,5 +138,10 @@
       "interval": "15m",
       "timeout": "5s"
     }
+  },
+  "app-scheduler": {
+    "rest": {
+      "port": 8100
+    }
   }
 }
