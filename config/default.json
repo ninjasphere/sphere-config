@@ -135,6 +135,7 @@
     "sync": {
       "enabled": true,
       "fromCloud": false,
+      "deleteUnknownFromCloud": true,
       "interval": "15m",
       "timeout": "5s"
     }
