@@ -122,6 +122,7 @@
     "autoStart": {
       "modules": [
         "app-scheduler",
+        "app-presets",
         "driver-go-zigbee",
         "driver-go-hue",
         "driver-go-sonos",
