@@ -144,5 +144,10 @@
     "rest": {
       "port": 8100
     }
+  },
+  "app-presets": {
+    "rest": {
+      "port": 8101
+    }
   }
 }
