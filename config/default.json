@@ -129,7 +129,8 @@
         "driver-go-chromecast",
         "driver-go-blecombined",
         "driver-go-wemo",
-        "driver-go-lifx"
+        "driver-go-lifx",
+        "app-security-light"
       ],
       "interval": "7s"
     },
@@ -149,6 +150,11 @@
   "app-presets": {
     "rest": {
       "port": 8101
+    }
+  },
+  "app-security-light": {
+    "rest": {
+      "port": 8102
     }
   }
 }
