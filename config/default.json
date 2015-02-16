@@ -28,7 +28,13 @@
     "pidfile": "director.pid",
     "logfile": "director.log",
     "errfile": "director.log",
-    "paths": ["/opt/ninjablocks", "/opt/ninjablocks/drivers", "$GOPATH/src/github.com/ninjasphere"]
+    "paths": [
+      "/opt/ninjablocks", 
+      "/opt/ninjablocks/drivers", 
+      "/opt/ninjablocks/apps", 
+      "/data/sphere/user-autostart/drivers", 
+      "/data/sphere/user-autostart/apps"
+    ]
   },
   "led": {
     "panDuration": "350ms",
