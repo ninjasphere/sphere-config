@@ -23,8 +23,8 @@
   "enableCors": true,
   "director": {
     "port": 2224,
-    "username": "go",
-    "password": "forever",
+    "username": "ninja",
+    "password": "temppwd",
     "pidfile": "director.pid",
     "logfile": "director.log",
     "errfile": "director.log",
