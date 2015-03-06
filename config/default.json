@@ -29,10 +29,10 @@
     "logfile": "director.log",
     "errfile": "director.log",
     "paths": [
-      "/opt/ninjablocks", 
-      "/opt/ninjablocks/drivers", 
-      "/opt/ninjablocks/apps", 
-      "/data/sphere/user-autostart/drivers", 
+      "/opt/ninjablocks",
+      "/opt/ninjablocks/drivers",
+      "/opt/ninjablocks/apps",
+      "/data/sphere/user-autostart/drivers",
       "/data/sphere/user-autostart/apps"
     ]
   },
@@ -166,5 +166,8 @@
     "rest": {
       "port": 8102
     }
+  },
+  "support-agent": {
+	"enabled": false
   }
 }
