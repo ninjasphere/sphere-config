@@ -42,6 +42,9 @@
     "sleepTransition": "5s",
     "sleepTimeout": "20s",
     "forceAllPanes": false,
+    "remote": {
+      "enable": false
+    },
     "gestures": {
       "enable": true,
       "log": false,
