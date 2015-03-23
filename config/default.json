@@ -139,7 +139,8 @@
         "driver-go-blecombined",
         "driver-go-wemo",
         "driver-go-lifx",
-        "app-security-light"
+        "app-security-light",
+        "driver-samsung-tv"
       ],
       "interval": "7s"
     },
