@@ -43,7 +43,7 @@
     "sleepTimeout": "20s",
     "forceAllPanes": false,
     "remote": {
-      "enabled": false
+      "enabled": true
     },
     "gestures": {
       "enable": true,
