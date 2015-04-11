@@ -115,9 +115,6 @@
     "rest": {
       "port": 8000
     },
-    "websocket": {
-      "port": 9001
-    },
     "redis": {
       "host": "",
       "port": 6379,
@@ -169,5 +166,10 @@
   },
   "support-agent": {
 	"enabled": false
+  },
+  "sphere-ui": {
+      "websocket": {
+      	"port": 9001
+      }
   }
 }
