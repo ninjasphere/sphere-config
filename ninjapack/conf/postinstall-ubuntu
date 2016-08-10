@@ -1,7 +1,6 @@
 if test -f /data/etc/opt/ninja/mesh.json; then
 	# cope with pre-existing spheres by overriding the configuration default
 	cat > /data/etc/opt/ninja/noCloud-override.json <<EOF
-# this file is managed by sphere-support-agent
 {"noCloud": false}
 EOF
 fi
