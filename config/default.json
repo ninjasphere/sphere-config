@@ -130,6 +130,7 @@
       "modules": [
         "app-scheduler",
         "app-presets",
+        "app-homecloud-ui",
         "driver-go-zigbee",
         "driver-go-hue",
         "driver-go-sonos",
